@@ -113,8 +113,9 @@ const Startup = () => {
                   </div>
                 </div> 
             </div>
-
-            <div className='closeDetailButton' onClick={() => setShowDetails(false)}>Close details<img className='arrow' src={double_arrow_up} alt="closeDetailButton" /></div>
+            <div className="detailButtonContainer">
+              <div className='closeDetailButton' onClick={() => setShowDetails(false)}>Close details<img className='arrow' src={double_arrow_up} alt="closeDetailButton" /></div>
+            </div>
             </>
           )}
         </div>
